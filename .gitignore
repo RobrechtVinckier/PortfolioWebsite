@@ -1,0 +1,7 @@
+.env
+.env.*
+!.env.example
+license-gateway.php
+node_modules/
+data/
+*.tgz

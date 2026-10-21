@@ -1,0 +1,9 @@
+DirectoryIndex index.php
+Options -Indexes
+RewriteEngine On
+RewriteBase /license/
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^ index.php [L]
+<FilesMatch "^\.">
+  Require all denied
+</FilesMatch>
